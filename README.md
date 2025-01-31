@@ -42,8 +42,9 @@ Main class
 
 Event hook
 
-``if playerAttacked(attacker) {
-    player.attackedBy(attacker);
+``if playerAttacked(attacker) {``
+
+    player.attackedBy(attacker);``
 
     //Event Post
     EventHandler.post(new EventAttacked(attacker);

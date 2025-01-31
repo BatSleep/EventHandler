@@ -36,9 +36,11 @@ Unregister a listener to stop it from handling events.
 
 Main class
 
-``public void init() {
-    EventHandler.subscribe(new ExEvent());
-}``
+```java
+public void init() {
+    EventHandler.subscribe(new EventAttacked());
+}
+```
 
 Event hook
 

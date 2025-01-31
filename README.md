@@ -47,7 +47,9 @@ Event hook
 ```java
 if playerAttacked(attacker) {
 
+    //game code
     player.attackedBy(attacker);
+    //game code
 
     //Event Post
     EventHandler.post(new EventAttacked(attacker);

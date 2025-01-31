@@ -46,7 +46,6 @@ Event hook
 
 ```java
 public void onPlayerAttack(Player attacker) {
-
     if (playerAttacked(attacker)) {
 
       //game code
@@ -56,6 +55,7 @@ public void onPlayerAttack(Player attacker) {
       //event Post
       EventHandler.post(new EventAttacked(attacker);
       //event Post
+
     }
 }
 ```

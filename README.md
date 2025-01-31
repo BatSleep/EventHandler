@@ -45,15 +45,17 @@ public void init() {
 Event hook
 
 ```java
-if playerAttacked(attacker) {
+public void onPlayerAttack(Player attacker) {
 
-    //game code
-    player.attackedBy(attacker);
-    //game code
+    if (playerAttacked(attacker)) {
 
-    //Event Post
-    EventHandler.post(new EventAttacked(attacker);
-    //Event Post
+      //game code
+      player.attackedBy(attacker);
+      //game code
 
+      //event Post
+      EventHandler.post(new EventAttacked(attacker);
+      //event Post
+    }
 }
 ```
